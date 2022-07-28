@@ -1,1 +1,1 @@
-web: gunicorn House-price:House-price
+web: gunicorn app:app
