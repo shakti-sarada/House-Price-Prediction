@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 
-app = Flask(__name__)
+House-price = Flask(__name__)
 model = pickle.load(open('house-price.pkl','rb')) 
 
 @app.route('/')
@@ -27,4 +27,4 @@ def predict():
     return render_template('index.html', prediction_text='Regression Model  has predicted House Price for given Square Foot Area is : {}'.format(prediction))
 
 
-app.run()
+House-price.run()
