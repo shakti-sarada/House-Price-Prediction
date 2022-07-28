@@ -27,4 +27,4 @@ def predict():
     return render_template('index.html', prediction_text='Regression Model  has predicted House Price for given Square Foot Area is : {}'.format(prediction))
 
 
-House-price.run()
+app.run()
