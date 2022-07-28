@@ -1,1 +1,1 @@
-web: gunicorn app:House-price.py
+web: gunicorn app:app
